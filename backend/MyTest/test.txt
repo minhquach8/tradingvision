@@ -1,0 +1,19 @@
+fetch("http://localhost:4040/api/reminders", {
+	method: "POST",
+	body: JSON.stringify({
+		Content: "This is from RDteam too",
+		Title: "RD Reminder 2",
+		Ticker: "VIG",
+	}),
+	headers: {
+		"Content-type": "application/json; charset=UTF-8",
+	},
+})
+	.then((res) => res.json())
+	.then(console.log);
+
+fetch("http://localhost:4040/api/reminders/62329d03f3cbec83f823c30f", {
+	method: "DELETE",
+})
+	.then((res) => res.text()) // or res.json()
+	.then((res) => console.log(res));

@@ -1,0 +1,31 @@
+
+
+
+.highcharts-background {
+    fill: #000000;
+     
+}
+
+.highcharts-candlestick-series .highcharts-point-down {
+    fill:  #ff5e00;
+    stroke:  #ff5e00;
+}
+
+.highcharts-candlestick-series .highcharts-point-up {
+    stroke: #35bd00;
+    fill: #35bd00;
+}
+
+
+.highcharts-color-1 {
+    fill: #90ed7d;
+    
+}
+.highcharts-color-0  {
+    fill: red;
+}
+
+.highcharts-yaxis .highcharts-axis-line {
+    stroke-width: 2px;
+   
+}
